@@ -9,6 +9,20 @@
 
 }
 
+.inisection {
+    font-size: 20px;
+    text-align: right;
+    
+}
+.inisection a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin-right: 20px;
+    
+
+}
+
 
 .stylebody{
   margin: 0%;  
@@ -118,4 +132,63 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: 12px;
 }
 
+/*ESTILO DEL FORMULARIO DE REGISTRO*/
 
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.form-register {
+    width: 400px;
+    background: #973261 81%;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    box-shadow: 7px 13px 37px #03478a;
+}
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.controls {
+    width: 100%;
+    background: #973261 81%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: white;
+    
+}
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+}
+.form-register a:hover{
+    color:white;
+    text-decoration: underline;
+
+}
+
+.form-register .botons {
+    width: 100%;
+    background:#1f53c5;
+    border:none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
