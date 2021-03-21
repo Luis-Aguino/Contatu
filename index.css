@@ -134,12 +134,7 @@ font-size: 12px;
 
 /*ESTILO DEL FORMULARIO DE REGISTRO*/
 
-/* * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
 
-} */
 
 .form-register {
     width: 300px;
@@ -192,3 +187,4 @@ font-size: 12px;
     font-size: 16px;
 
 }
+
