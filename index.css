@@ -142,7 +142,7 @@ font-size: 12px;
 } */
 
 .form-register {
-    width: 400px;
+    width: 300px;
     background: #973261 81%;
     padding: 30px;
     margin: auto;
@@ -159,7 +159,7 @@ font-size: 12px;
 }
 
 .controls {
-    width: 100%;
+    width: 90%;
     background: #973261 81%;
     padding: 10px;
     border-radius: 4px;
