@@ -5,7 +5,7 @@ let getData = function ()  {
     let email = document.getElementById("email").value;
     let password = document.getElementById("password").value;
     let password2 = document.getElementById("password2").value;
-        
+      
  /*para limpiar los elementos capturados*/
     document.getElementById("nombre").value = "";
     document.getElementById("apellido").value = "";
@@ -14,5 +14,5 @@ let getData = function ()  {
     document.getElementById("password2").value = "";
     console.log(nombre+" "+apellido+" "+email+" "+password+" "+password2);
 
-    alert("Gracias te has registrado con exito")
+    alert("Gracias te has registrado con exito ahora puedes iniciar sesión.")
 }
