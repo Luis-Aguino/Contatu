@@ -79,7 +79,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
     display: none;
     position: absolute;
     background-color:  #961962;
-    min-width: 1600px;
+    min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(185, 38, 38, 0.2);
     box-shadow: 10px 0px 100px 10px #961962;
     
