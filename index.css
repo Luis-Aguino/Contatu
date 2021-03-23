@@ -25,7 +25,8 @@
 
 
 .stylebody{
-  margin: 0%;  
+  margin: 5px;
+  margin-top: 0px;  
 }
 
 
@@ -51,13 +52,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
 
 /* Style The Dropdown Button */
 .dropbtn {
+    
     background-color: #d12274;
     color: white;
     padding: 16px;
     font-size: 16px;
-    border:none;
+    border:box;
     cursor: pointer;
     margin-left: 20px;
+    
+    
     
 
     
@@ -67,16 +71,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
 .dropdown {
     position: relative;
     display: inline-block;
+    
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #961962;
-    min-width: 160px;
+    background-color:  #961962;
+    min-width: 1600px;
     box-shadow: 0px 8px 16px 0px rgba(185, 38, 38, 0.2);
-    
+    box-shadow: 10px 0px 100px 10px #961962;
     
     
 }
@@ -186,6 +191,12 @@ font-size: 12px;
     margin: 16px 0;
     font-size: 16px;
 
+}
+
+.form-register img{
+    width: 100px;
+    margin-left: 100px;
+    
 }
 .terminost{
     text-align: justify;
